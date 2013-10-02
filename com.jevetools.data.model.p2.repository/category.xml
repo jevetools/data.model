@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+   <feature url="features/com.jevetools.data.model.api.feature_0.0.1.qualifier.jar" id="com.jevetools.data.model.api.feature" version="0.0.0">
+      <category name="com.jevetools.data.model"/>
+   </feature>
+   <feature url="features/com.jevetools.data.model.api.feature.source_0.0.1.qualifier.jar" id="com.jevetools.data.model.api.feature.source" version="0.0.0">
+      <category name="com.jevetools.data.model.source"/>
+   </feature>
+   <feature url="features/com.jevetools.data.model.api.tests.feature_0.0.1.qualifier.jar" id="com.jevetools.data.model.api.tests.feature" version="0.0.0">
+      <category name="com.jevetools.data.model.tests"/>
+   </feature>
+   <feature url="features/com.jevetools.data.model.api.tests.feature.source_0.0.1.qualifier.jar" id="com.jevetools.data.model.api.tests.feature.source" version="0.0.0">
+      <category name="com.jevetools.data.model.tests.source"/>
+   </feature>
+   <feature url="features/com.jevetools.data.model.api.impl.feature_0.0.1.qualifier.jar" id="com.jevetools.data.model.api.impl.feature" version="0.0.0">
+      <category name="com.jevetools.data.model"/>
+   </feature>
+   <feature url="features/com.jevetools.data.model.api.impl.feature.source_0.0.1.qualifier.jar" id="com.jevetools.data.model.api.impl.feature.source" version="0.0.0">
+      <category name="com.jevetools.data.model.source"/>
+   </feature>
+   <feature url="features/com.jevetools.data.model.api.impl.tests.feature_0.0.1.qualifier.jar" id="com.jevetools.data.model.api.impl.tests.feature" version="0.0.0">
+      <category name="com.jevetools.data.model.tests"/>
+   </feature>
+   <feature url="features/com.jevetools.data.model.api.impl.tests.feature.source_0.0.1.qualifier.jar" id="com.jevetools.data.model.api.impl.tests.feature.source" version="0.0.0">
+      <category name="com.jevetools.data.model.tests.source"/>
+   </feature>
+   <category-def name="com.jevetools.data.model" label="jEVETools Data Model">
+      <description>
+         jEVETools Data Model - JAVA EVE Online Tools Data Model
+      </description>
+   </category-def>
+   <category-def name="com.jevetools.data.model.source" label="jEVETools Data Model Sources">
+      <description>
+         jEVETools Data Model Sources - JAVA EVE Online Tools Data Model Sources
+      </description>
+   </category-def>
+   <category-def name="com.jevetools.data.model.tests" label="jEVETools Data Model Tests">
+      <description>
+         jEVETools Data Model Tests - JAVA EVE Online Tools Data Model Tests
+      </description>
+   </category-def>
+   <category-def name="com.jevetools.data.model.tests.source" label="jEVETools Data Model Tests Sources">
+      <description>
+         jEVETools Data Model Tests Sources - JAVA EVE Online Tools Data Model Tests Sources
+      </description>
+   </category-def>
+</site>

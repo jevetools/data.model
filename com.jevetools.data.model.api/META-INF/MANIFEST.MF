@@ -1,0 +1,14 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: %Bundle-Name
+Bundle-Vendor: %Bundle-Vendor
+Bundle-Version: 0.0.1.qualifier
+Bundle-SymbolicName: com.jevetools.data.model.api;singleton:=true
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Bundle-ActivationPolicy: lazy
+Export-Package: com.jevetools.data.model.api;version="0.0.1",
+ com.jevetools.data.model.api.inventory;version="0.0.1",
+ com.jevetools.data.model.api.pi;version="0.0.1",
+ com.jevetools.data.model.api.ram;version="0.0.1"
+Import-Package: org.osgi.framework;version="1.7.0"
+Bundle-Activator: com.jevetools.data.model.api.internal.Activator
